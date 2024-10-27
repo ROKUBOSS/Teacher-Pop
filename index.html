@@ -3,9 +3,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teacher-Pop</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sonar Tori</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            /* background: linear-gradient(45deg, #f3ec78, #af4261); */
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* height: 100vh; */
+        }
+
+        .sonarTori {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 15px;
+            max-width: 800px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #af4261;
+        }
+
+        .sonarTori p {
+            font-size: 18px;
+            line-height: 1.8;
+            margin-bottom: 15px;
+            color: #333;
+            text-align: justify;
+            white-space: pre-line; /* Preserves line breaks */
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .sonarTori {
+                padding: 20px;
+                max-width: 90%;
+            }
+
+            .sonarTori p {
+                font-size: 16px;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+        }
+    </style>
 </head>
 <body>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, mollitia ullam accusamus sed culpa possimus repellendus officia provident velit ab modi, minima iste tenetur voluptatum molestias exercitationem. Corrupti, tenetur itaque.</p>
+    <div class="sonarTori">
+        <h1>সোনার তরী</h1>
+        <h3>রবীন্দ্রনাথ ঠাকুর</h3>
+        <p>গগনে গরজে মেঘ, ঘন বরষা।<br>
+        কূলে একা বসে আছি, নাহি ভরসা।<br>
+        রাশি রাশি ভারা ভারা<br>
+        ধান কাটা হল সারা,<br>
+        ভরা নদী ক্ষুরধারা<br>
+        খরপরশা।<br>
+        কাটিতে কাটিতে <span class="highlight" data-type="image" data-src="Media/robot.jpg">ধান</span> এল বরষা।</p>
+
+        <p>একখানি ছোটো খেত, আমি একেলা,<br>
+        চারি দিকে বাঁকা জল করিছে খেলা।<br>
+        পরপারে দেখি আঁকা<br>
+        তরুছায়ামসীমাখা<br>
+        গ্রামখানি <span class="highlight" data-type="video" data-src="Media/myvid.mp4">মেঘে </span> ঢাকা<br>
+        প্রভাতবেলা–<br>
+        এ পারেতে ছোটো খেত, আমি একেলা।</p>
+
+        <p>গান গেয়ে তরী বেয়ে কে আসে পারে,<br>
+        দেখে যেন মনে হয় চিনি <span class="highlight" data-type="youtube" data-src="https://www.youtube.com/embed/GiOh5I_JPYM">উহারে।</span> <br>
+        ভরা-পালে চলে যায়,<br>
+        কোনো দিকে নাহি চায়,<br>
+        ঢেউগুলি নিরুপায়<br>
+        ভাঙে দু-ধারে–<br>
+        দেখে যেন মনে হয় চিনি উহারে।</p>
+
+        <p><span class="highlight" data-type="audio" data-src="Media/aud.mp3">ওগো,</span> তুমি কোথা যাও কোন্‌ বিদেশে,<br>
+        বারেক ভিড়াও তরী কূলেতে এসে।<br>
+        যেয়ো যেথা যেতে চাও,<br>
+        যারে খুশি তারে দাও,<br>
+        শুধু তুমি নিয়ে যাও<br>
+        ক্ষণিক হেসে<br>
+        আমার সোনার ধান কূলেতে এসে।</p>
+
+        <p>যত চাও <span class="highlight" data-type="link" data-href="https://www.cricbuzz.com/">তত</span> লও তরণী-‘পরে।<br>
+        আর আছে– আর নাই, দিয়েছি ভরে।<br>
+        এতকাল নদীকূলে<br>
+        যাহা লয়ে ছিনু ভুলে<br>
+        সকলি দিলাম তুলে<br>
+        থরে বিথরে–<br>
+        এখন আমারে লহ করুণা করে।</p>
+
+        <p>ঠাঁই নাই, ঠাঁই নাই– ছোটো সে তরী<br>
+        আমারি সোনার ধানে গিয়েছে ভরি।<br>
+        শ্রাবণগগন ঘিরে<br>
+        ঘন <span class="highlight" data-type="text" data-content="This is some sample text!">মেঘ</span> ঘুরে ফিরে,<br>
+        শূন্য নদীর তীরে<br>
+        রহিনু পড়ি–<br>
+        যাহা ছিল নিয়ে গেল সোনার তরী।</p>
+    </div>
+
+
+       <!-- Do not touch 👇 -->
+
+    <!-- <span class="highlight" data-type="text" data-content="This is some sample text!">Text</span>  -->
+<!-- <span class="highlight" data-type="image" data-src="https://via.placeholder.com/400">Image</span> -->
+<!-- <span class="highlight" data-type="audio" data-src="https://www.w3schools.com/html/horse.mp3">Audio</span> -->
+<!-- <span class="highlight" data-type="video" data-src="myvid.mp4">MyVid</span> -->
+<!-- <span class="highlight" data-type="youtube" data-src="https://www.youtube.com/embed/tgbNymZ7vqY">YouTube</span> -->
+<!-- <span class="highlight" data-type="link" data-href="https://www.cricbuzz.com/">Link Me</span> -->
+    <!-- Generic Modal Structure -->
+<div id="genericModal" class="modal">
+    <div class="modal-content" id="modalContent">
+        <span class="close">&times;</span>
+        <div id="modalBody"></div>
+    </div>
+</div>
+
+
+    <script src="script.js"></script>
 </body>
 </html>
